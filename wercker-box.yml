@@ -19,3 +19,4 @@ script: |
   sudo apt-get install oracle-java7-installer redis-server ansible
   sudo curl -o /usr/local/bin/lein https://raw.githubusercontent.com/technomancy/leiningen/2.4.2/bin/lein
   sudo chmod +x /usr/local/bin/lein
+  lein version
